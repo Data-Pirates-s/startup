@@ -46,6 +46,10 @@
 
         nav .brand-logo {
             padding-left: 15px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight:700
         }
 
         nav {

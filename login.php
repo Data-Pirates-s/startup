@@ -144,12 +144,12 @@ if (isset($_SESSION['user'])) {
                                     <form class="col s12" action="verify.php" method="post">
                                         <div class="row">
                                             <div class="input-field input-outlined col l12 m12 s12">
-                                                <input id="email" type="email" name="email">
+                                                <input id="email" type="email" name="email" required>
                                                 <label for="email">Email</label>
                                                 <i class="material-icons prefix">email</i>
                                             </div>
                                             <div class="input-field input-outlined col l12 m12 s12">
-                                                <input id="password" type="password" name="password">
+                                                <input id="password" type="password" name="password" required>
                                                 <label for="password">Password</label>
                                                 <i class="material-icons prefix">visibility</i>
                                             </div>
