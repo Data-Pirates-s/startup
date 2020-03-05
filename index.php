@@ -1,8 +1,11 @@
+
 <?php include 'includes/session.php' ?>
-<<<<<<< HEAD
-=======
+<?php 
+if(!isset($_SESSION['user'])){
+header('location:signup.php');
+}
+?>
 <?php include 'includes/links.php'; ?>
->>>>>>> bd289ded524c46b9bc7c37a4b5c9a04d6249a39f
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,9 +20,9 @@
 <body>
     <?php include 'includes/links.php' ?>
     <?php include 'includes/navbar.php' ?>
-
+<!-- 
     <div class="slider" id="slider1">
-        <!-- Slides -->
+         Slides
         <div>
             <img src="images/brand_logo.png">
         </div>
@@ -27,16 +30,18 @@
             <img src="images/footer.svg">
         </div>
 
-        <!-- The Arrows -->
+        The Arrows
         <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
                 <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
             </svg></i>
         <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
                 <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
             </svg></i>
-    </div>
-    <!-- <a href="logout.php">Logout</a> -->
-    <a href="logout.php" class="waves-effect waves-light btn">Logout</a>
+    </div> -->
+
+
+
+
     <?php include 'includes/footer.php' ?>
 
     <script>
