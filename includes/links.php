@@ -18,10 +18,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: 0;
+        }
+        .opensanas{
+            font-family: "Open Sans";
         }
 
         body {
@@ -308,6 +313,11 @@
             text-align: center;
             padding: 0;
             width: 100%;
+        }
+        @media(max-width: 500px){
+            #col1-acs{
+                padding: 0;
+            }
         }
     </style>
 </head>
